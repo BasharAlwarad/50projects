@@ -37,8 +37,10 @@ body {
 .panel h3 {
   font-size: 24px;
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   margin: 0;
   opacity: 0;
 }
