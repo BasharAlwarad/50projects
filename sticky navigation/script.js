@@ -8,5 +8,4 @@ function fixNav() {
   } else {
     nav.classList.remove('active')
   }
-  console.log(window.scrollY)
 }
